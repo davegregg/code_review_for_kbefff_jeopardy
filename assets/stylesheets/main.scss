@@ -1,0 +1,42 @@
+$color-black: #000;
+
+.question {
+  cursor: pointer;
+  font-size: 1.5em;
+  height: 100px;
+  padding-top: 35px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.panel-heading h4 {
+  text-transform: uppercase;
+}
+
+#stats {
+  background-color: $color-black;
+  bottom: 0;
+  display: none;
+  height: 110px;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+
+  h3 {
+    margin: 0;
+    padding: 0;
+  }
+
+  table {
+    margin: auto;
+
+    th {
+      border-bottom: 1px solid $color-black;
+    }
+  }
+}
+
+.scoreboard {
+  font-size: 45px;
+}
